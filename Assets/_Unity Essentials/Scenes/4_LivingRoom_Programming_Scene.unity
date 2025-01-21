@@ -218,7 +218,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &7708097 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -323,7 +322,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &40884533 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -428,7 +426,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &118673958 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -589,7 +586,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &260673217 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -624,6 +620,39 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &297161226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297161221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6fe759a99b3d352ac1be04dcadd452, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &297161227
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297161221}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.5, y: 0, z: 0}
 --- !u!1001 &416745951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -803,7 +832,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &426883394 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -908,7 +936,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &493049832 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -1013,7 +1040,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &538561124 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -1118,7 +1144,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &693337946 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -1229,7 +1254,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &723921554 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -1334,7 +1358,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &736342029 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -1439,7 +1462,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &854522670 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -1544,7 +1566,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &991261807 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -1649,7 +1670,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &1035590402 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -1754,7 +1774,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &1057676316 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -1859,7 +1878,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &1113607749 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -2053,7 +2071,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &1271448689 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -2158,7 +2175,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &1338071452 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -2263,7 +2279,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &1426686619 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -2298,6 +2313,39 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1440623007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440623002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6fe759a99b3d352ac1be04dcadd452, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1440623008
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440623002}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.37, y: 0, z: 0}
 --- !u!1001 &1520852937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2396,7 +2444,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &1520852941 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -2501,7 +2548,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &1568534521 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -2606,7 +2652,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &1615567464 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -2743,7 +2788,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &1785524395 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -2761,6 +2805,7 @@ GameObject:
   - component: {fileID: 1815318737}
   - component: {fileID: 1815318736}
   - component: {fileID: 1815318738}
+  - component: {fileID: 1815318739}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -2871,6 +2916,19 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!114 &1815318739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815318735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9633f99216edd4762b3e05a25b57351e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dayDurationInSeconds: 120
 --- !u!1 &1840224702 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3329391665535240821, guid: dddc3ae9a1ed446b6bf9d7ee0a2433a2,
@@ -2891,6 +2949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   rotationSpeed: 120
+  jumpForce: 5
 --- !u!4 &1840224706 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702072609741181135, guid: dddc3ae9a1ed446b6bf9d7ee0a2433a2,
@@ -3001,7 +3060,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &1982595556 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -3106,7 +3164,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &1997530794 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -3211,7 +3268,6 @@ MonoBehaviour:
   _CoinSpeed: 0.5
   OnCollisionEffect: {fileID: 9163842254569548763, guid: 0e62c4d669c52425fa7ad6a0a297dd84,
     type: 3}
-  gameManager: {fileID: 0}
 --- !u!4 &2029259940 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4939168662721627333, guid: 37c65fdc88e8e402eb7bf60bb0b9390a,
@@ -3457,6 +3513,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7191215454107029894, guid: 625a16b402cfd487494f48992994e27e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7572742035931642408, guid: 625a16b402cfd487494f48992994e27e,
         type: 3}
       propertyPath: m_Name
@@ -3488,10 +3549,26 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 297161224}
+    - targetCorrespondingSourceObject: {fileID: 5322162976850455221, guid: 625a16b402cfd487494f48992994e27e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 297161226}
+    - targetCorrespondingSourceObject: {fileID: 5322162976850455221, guid: 625a16b402cfd487494f48992994e27e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 297161227}
     - targetCorrespondingSourceObject: {fileID: 673875306344337644, guid: 625a16b402cfd487494f48992994e27e,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1440623005}
+    - targetCorrespondingSourceObject: {fileID: 673875306344337644, guid: 625a16b402cfd487494f48992994e27e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1440623007}
+    - targetCorrespondingSourceObject: {fileID: 673875306344337644, guid: 625a16b402cfd487494f48992994e27e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1440623008}
     - targetCorrespondingSourceObject: {fileID: 2832342470797062690, guid: 625a16b402cfd487494f48992994e27e,
         type: 3}
       insertIndex: -1
